@@ -2,6 +2,10 @@
 
 The following sections describe the default workflows.
 
+##Known Issues
+Following are the known issues with the default workflows
+1. If your source media file does not contain embedded caption files, the output Asset will still contain an empty .ttml file
+
 ##H264 Progressive Download MP4
 
 The intent here is to produce an audio-video interleaved MP4 that can be delivered via progressive download to playback devices. This workflow is intended to:
